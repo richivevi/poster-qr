@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accede al Póster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 300px;
+            margin: auto;
+        }
+        .button {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .pdf { background-color: #007bff; }
+        .pdf:hover { background-color: #0056b3; }
+        .rickroll { background-color: #ff4136; }
+        .rickroll:hover { background-color: #c30000; }
+    </style>
+</head>
+<body>
+    <h1>Accede al Póster</h1>
+    <p>Elige una opción:</p>
+    <div class="container">
+        <a class="button pdf" href="https://drive.google.com/file/d/1DPlHeBvalx2s-eoi3p3UWr_TsjRdG_0m/view?usp=drive_link" target="_blank">Ver el Póster (PDF)</a>
+        <a class="button rickroll" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Ver un Mensaje Especial</a>
+    </div>
+</body>
+</html>
